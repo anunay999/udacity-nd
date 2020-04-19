@@ -1,0 +1,40 @@
+Task0 :
+
+Worst Case Scenario : O(1)
+Reason : We are just accessing first and last records from the file
+
+-------------------------------------------------------------------
+
+Task1 :
+
+Worst Case Scenario : O(N)
+Reason : As I'm iterrating both the files at once value of 'n' is based on the largest size among both the files
+
+-------------------------------------------------------------------
+
+Task2 :
+
+Worst Case Scenario : O(N)
+Reason : It's time complexity is n for creating a Dictionary by iterating through the file as each set operation 
+has time complexity of O(1) and finding max from the dictionary is also O(n) so the time complexity would be 2n 
+for both the operations
+
+-------------------------------------------------------------------
+
+Task3 :
+
+Worst Case Scenario : O(NlogN)
+Reason : Number of operations increases linearly with increase in number of inputs and therefore use of sorting makes the worst case
+scenario to 'NlogN'
+
+-------------------------------------------------------------------
+
+Task4 :
+
+Worst Case Scenario : O(NlogN)
+Reason : Similar to task3 number of operations increase linearly eith increase in size of the input and therefore use of sort makes  the 
+worst case scenario 'NlogN'
+
+
+
+
